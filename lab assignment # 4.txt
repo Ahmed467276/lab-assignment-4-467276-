@@ -1,0 +1,155 @@
+lab assignment# 4 
+
+  
+
+Name: Muhammad Ahmed Naseer 
+
+sec: ME-15(A) 
+
+id: 467276 
+
+course: Fundamentals of Programming (lab) 
+
+ 
+
+ 
+
+ Hometask # 1: 
+
+  
+
+#include <iostream> 
+
+using namespace std; 
+
+int main(){ 
+
+    int a=0; 
+
+    for( int b=0; b<150; b++) 
+
+  //the loop will rum 149 times 
+
+    { 
+
+        if(b%10==0) 
+
+    //any divisible of 10 will be excluded from cout 
+
+        { 
+
+            continue; 
+
+        } 
+
+        else{ 
+
+            cout<<b<<" , "; 
+
+        } 
+
+    } 
+
+    return 0; 
+
+} 
+
+ 
+
+ 
+
+ 
+
+Hometask # 2: 
+
+ 
+
+#include <iostream> 
+
+using namespace std; 
+
+int main(){ 
+
+   int a,b,c=0; 
+
+   cout<<"Enter number:"; 
+
+   cin>>a; 
+
+   while(a>0) 
+
+   { 
+
+       b=a%10; 
+
+       c=c+b; 
+
+       a=a/10; 
+
+       //here the number is first divided by 10 to get units value and then again divided by 10 to get tens value 
+
+   } 
+
+   cout<<"sum of digits:"<<c<<endl; 
+
+   return 0; 
+
+} 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Hometask # 3: 
+
+ 
+
+#include <iostream> 
+
+using namespace std; 
+
+int main(){ 
+
+    int a,b; 
+
+    cout<<"Enter a number:"; 
+
+    cin>>a; 
+
+    if(a==1||a==0){ 
+
+        cout<<"your number in niether prime nor composite"; 
+
+    } 
+
+else{ 
+
+     for(b=2;b=a/2;b++){ 
+
+         if(a%b==0){ 
+
+             cout<<"your number is composite"; 
+
+         }   else{ 
+
+             cout<<"your number is prime"; 
+
+         } 
+
+         break; 
+
+     } 
+
+} 
+
+return 0; 
+
+} 
+
+ 
